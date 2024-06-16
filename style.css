@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  height: 90vh;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/41c789f0-7df5-4219-94c6-c66fe500590a/3149e5eb-4660-4e3d-9e65-b1e615229c64/IN-en-20240513-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100vw;
+}
+
+.main .box {
+  width: 100%;
+  background-color: black;
+  opacity: 0.65;
+  position: absolute;
+  top: 0;
+  height: 90vh;
+}
+
+nav {
+  padding: 0 11%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+  height: 40px;
+  width: 148px;
+}
+
+nav .nav-btn {
+  position: relative;
+  z-index: 10;
+  padding: 8px 18px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.316);
+  color: white;
+}
+
+nav .signin {
+  background-color: red;
+  cursor: pointer;
+}
+nav .signin a {
+  color: white;
+  text-decoration: none;
+}
+.main-para {
+  text-align: center;
+  font-family: sans-serif;
+  height: 90%;
+  gap: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  color: white;
+  font-size: 1.5rem;
+}
+.main-para h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.content-para {
+  font-size: 18px;
+}
+.start-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 50vw; */
+  font-family: sans-serif;
+  gap: 0 10px;
+}
+
+input[type="email/number"] {
+  width: 300px;
+  background: rgba(23, 23, 23, 0.7);
+  background: transparent;
+  margin-bottom: 10px;
+  border: 1px solid rgba(248, 236, 236, 0.7);
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 16px;
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+
+.get-start-btn {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 27px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+.get-start-btn a {
+  color: white;
+  text-decoration: none;
+}
+.separation {
+  height: 8px;
+  background-color: rgba(128, 128, 128, 0.395);
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin: auto;
+  color: white;
+}
+
+.section h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.section p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.secImg {
+  position: relative;
+}
+.secImg img {
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  top: 93px;
+  right: 81px;
+}
+
+.secImg .video-3 {
+  position: absolute;
+  top: 39px;
+  right: 128px;
+  height: 220px;
+}
+.faq {
+  padding: 34px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.faq h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 900;
+}
+.faq-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(44, 43, 43);
+  padding: 20px;
+  max-width: 70vw;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.faq-box:hover {
+  background-color: #414141;
+}
+.faq-para {
+  font-size: 24px;
+  font-weight: 400;
+}
+.faq p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 40px 0 20px 0;
+}
+footer {
+  max-width: 74vw;
+  margin: 10px auto;
+  margin-top: 65px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+}
+.footer-items a {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0;
+  color:rgb(255, 255, 255, 0.7);
+}
+footer .ques {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 0;
+  color:rgb(255, 255, 255, 0.7);
+}
+
+.lang-btn {
+  margin-top: 10px;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.316);
+}
+
+footer p{
+  color: rgba(245, 245, 245, 0.7);
+  margin: 20px 0 7% 0;
+}
